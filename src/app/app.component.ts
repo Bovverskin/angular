@@ -7,7 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'new-app';
-  handleClick(){
-    console.log('Someone clicked on button on the template :-)')
+  videos = [
+    {name: 'video one', liked: true},
+    {name: 'video two', liked: false}
+  ]
+  views: 2
+  liked: true;
+  constructor(){}
   }
+  
+  handleClick(){
+    console.log( "Someone clicked the 'Like' button in the template :-)" )
 }
