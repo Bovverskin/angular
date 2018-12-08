@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'new-app';
+  handleClick(){
+    console.log('Someone clicked on button on the template :-)')
+  }
 }
